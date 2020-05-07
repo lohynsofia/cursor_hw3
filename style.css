@@ -50,7 +50,6 @@ img {
 
 #search {
     background-image: url(./img/detection.svg);
-    background-position: left center;
     background-repeat: no-repeat;
     background-size: 0.85em;
     padding: 10px;
@@ -61,6 +60,7 @@ img {
     outline: none;
     text-align: right;
     background-color: aqua;
+    background-position: left 7px center;
 }
 
 .table-data {
