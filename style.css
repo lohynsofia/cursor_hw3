@@ -6,6 +6,7 @@ body {
 
 table {
     border: 2px solid gainsboro;
+    border-spacing: 0;
     border-radius: 5px; 
     width: 55%; 
     color: rgb(182, 179, 179);
@@ -36,9 +37,10 @@ img {
     height: 1em;
 }
 
-.arrow {    
+.triangle {    
     height: 10px;
     margin-left: 5px;
+    position: absolute;
 }
 
 
@@ -61,8 +63,13 @@ img {
 
 .dots1 {
     border-bottom: 2px solid gainsboro;
+    text-align: right;
 }
 
-.inter1 {
+.dots {
+    text-align: right;
+}
+
+.file3 {
     border-bottom: 2px solid gainsboro;
 }
