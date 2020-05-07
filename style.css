@@ -6,7 +6,6 @@ body {
 
 table {
     border: 2px solid gainsboro;
-    border-bottom: 2px solid;
     border-radius: 5px; 
     width: 55%; 
     color: rgb(182, 179, 179);
@@ -17,6 +16,7 @@ table {
     table-layout: fixed;
     text-align: left;
 }
+
 
 th, td {
     height: 45px;
@@ -53,4 +53,16 @@ img {
     height: 60%;
     border: none;
     outline: none;
+}
+
+.table-data {
+    border-bottom: 2px solid gainsboro; 
+}
+
+.dots1 {
+    border-bottom: 2px solid gainsboro;
+}
+
+.inter1 {
+    border-bottom: 2px solid gainsboro;
 }
