@@ -1,0 +1,56 @@
+body {
+    background: #474747;
+    
+}
+
+
+table {
+    border: 2px solid gainsboro;
+    border-bottom: 2px solid;
+    border-radius: 5px; 
+    width: 55%; 
+    color: rgb(182, 179, 179);
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 50px;
+    table-layout: fixed;
+    text-align: left;
+}
+
+th, td {
+    height: 45px;
+    padding: 5px;
+}
+
+th {
+    color: aliceblue;
+}
+
+img {
+    height: 30px;
+    margin: 7px;
+}
+
+.search {
+    height: 1em;
+}
+
+.arrow {    
+    height: 10px;
+    margin-left: 5px;
+}
+
+
+#search {
+    background-image: url(./img/detection.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 0.85em;
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
+    height: 60%;
+    border: none;
+    outline: none;
+}
