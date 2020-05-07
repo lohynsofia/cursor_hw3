@@ -59,21 +59,12 @@ img {
     border: none;
     outline: none;
     text-align: right;
-    background-color: aqua;
+    background-color: rgb(197, 197, 197);
     background-position: left 7px center;
 }
 
 .table-data {
     border-bottom: 2px solid gainsboro; 
-}
-
-.dots1 {
-    border-bottom: 2px solid gainsboro;
-    text-align: right;
-}
-
-.dots {
-    text-align: right;
 }
 
 .file3 {
@@ -93,6 +84,23 @@ img {
     height: 10px;
     width: 18%;
     color: white;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.white0 {
+    height: 10px;
+    width: 18%;
+    color: grey;
+    text-align: right;
+    border-bottom: 2px solid gainsboro; 
+    padding-right: 10px;
+}
+
+.white3 {
+    height: 10px;
+    width: 18%;
+    color: grey;
     text-align: right;
     padding-right: 10px;
 }
