@@ -58,7 +58,7 @@ img {
     height: 60%;
     border: none;
     outline: none;
-    text-align: right;
+    padding-left: 25px;
     background-color: grey;
     background-position: left 7px center;
 }
